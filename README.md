@@ -58,16 +58,9 @@ cd bookmybus
 ```bash
 npm install
 ```
-
-3. Create a `.env` file in the root directory:
-```env
-NODE_ENV=development
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/bookmybus
-JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
 ```
 
-4. Start the server:
+3. Start the server:
 ```bash
 npm run server
 ```
@@ -122,9 +115,7 @@ npm run dev
 ### Users
 - `GET /api/users/profile` - Get user profile
 - `PUT /api/users/profile` - Update user profile
-- `GET /api/users/admin/all` - Get all users (Admin)
-- `PUT /api/users/admin/:id/role` - Update user role (Admin)
-- `DELETE /api/users/admin/:id` - Delete user (Admin)
+- `GET /api/users/create-admin - to create admin`
 
 ## Project Structure
 
@@ -155,18 +146,3 @@ bookmybus/
 └── README.md
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License.
-
-## Support
-
-For support, email support@bookmybus.com or create an issue in the repository. 
