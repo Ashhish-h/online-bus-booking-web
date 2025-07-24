@@ -191,7 +191,7 @@ const CreateAdmin = () => {
             onChange={handleChange}
             required
             margin="normal"
-            helperText="Enter the admin key: bookmybus2024"
+            // helperText="Enter the admin key: bookmybus2024"
             InputProps={{
               startAdornment: <VpnKey sx={{ mr: 1, color: 'text.secondary' }} />
             }}
